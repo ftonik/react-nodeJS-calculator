@@ -1,0 +1,63 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require grails
+*= require main
+*= require mobile
+*= require_self
+*/
+body {
+    min-width: 400px;
+    background: #eefffa; /* fallback for old browsers *//*
+    background: -webkit-linear-gradient(to left, #83a4d4, #b6fbff); !* Chrome 10-25, Safari 5.1-6 *!
+    background: linear-gradient(to left, #83a4d4, #b6fbff); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+}
+
+#monitor {
+    background: #e1f1ff;
+    width: 100%;
+    border: 1px solid #2929ae;
+}
+
+.btn {
+    width: 22%;
+    margin: 0 5px 5px 0;
+    font-weight: bold;
+
+}
+
+.container {
+    background: #83a4d4;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+#buttonMenu {
+    background: #b7cfe9;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 20px;
+}
+
+.App-header {
+    background-color: #e1f1ff;
+    height: 30px;
+    color: white;
+}
+
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
