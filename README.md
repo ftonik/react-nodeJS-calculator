@@ -1,3 +1,6 @@
+## Preview
+![preview](./public/view.png)
+
 ## Key words
 * react
 * node.js
